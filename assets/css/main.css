@@ -33,6 +33,30 @@
   --animate: all 0.3s ease-in-out;
 }
 
+.slideshow-container {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slideshow-image:first-child {
+  opacity: 1;
+}
+
+.slideshow-image.active {
+  opacity: 1;
+}
+
 .dark-theme {
   --color-first: #fff ;
   --color-newsletter: black;
