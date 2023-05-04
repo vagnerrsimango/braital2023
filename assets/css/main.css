@@ -77,6 +77,20 @@
 border-radius: 12px;
 }
 
+#txtLocation {
+  font-family: 'Poppins', sans-serif; color: black;
+}
+
+#cardCol {
+  background-color:var(--colarinho-branco);
+}
+
+#iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   .element {
     background-color: #000;
