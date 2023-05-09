@@ -6,7 +6,7 @@
   --color-first: #190b00;
   --color-second: #554022;
   --footer-cor: #bb9156;
-  --color-third: #C4A484,;
+  --color-third: #C4A484;
   --color-fourth: #f3f8ec;
   --color-white: #fff; 
   --colarinho-branco: white;
@@ -57,21 +57,7 @@
   opacity: 1;
 }
 
-/* .dark-theme {
-  --color-first: #fff ;
-  --color-newsletter: black;
-  --color-second:  white;
-  --footer-cor: #fff;
-  --color-third: white;
-  --color-fourth: #f3f8ec;
-  --color-white:  #190b00;
-  --verdinho-fartinho: black;
-  --colarinho-branco: #fff;
-  color: #bb9156;
-  background-color: #000;
 
-  --color-nav: black;
-} */
 
 #logotip {
 border-radius: 12px;
@@ -82,20 +68,13 @@ border-radius: 12px;
 }
 
 #cardCol {
-  background-color:var(--colarinho-branco);
+  background-color:#fff;
 }
 
 #iframe {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-
-/* @media (prefers-color-scheme: dark) {
-  .element {
-    background-color: #000;
-    color: #fff;
-  } */
 }
 
 
@@ -222,7 +201,7 @@ h2 {
   margin-bottom: 25px;
 }
 h3 {
-  color: var(--color-first);
+  color: #190b00;
   font-size: var(--text-small);
   font-weight: var(--font-weight-regular);
   margin-bottom: 13px;
@@ -266,20 +245,20 @@ main {
   padding: 12px 30px;
   font-size: var(--text-regular);
   font-weight: var(--font-weight-regular);
-  background-color: var(--color-first);
-  color: var(--color-white);
+  background-color: #190b00;
+  color: #fff;
   border-radius: var(--border-radius);
   letter-spacing: 1.1px;
   box-shadow: 0px 15px 40px rgba(102, 145, 53, 0.4);
   transition: var(--animate);
   text-align: center;
   text-transform: capitalize;
-  border: 1px solid var(--color-first);
+  border: 1px solid #190b00;
   cursor: pointer;
 }
 .btn:hover {
   background-color: transparent;
-  color: var(--color-first);
+  color: #190b00;
   box-shadow: none;
 }
 /* section title */
@@ -300,7 +279,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 3;
-  background: var(--colarinho-branco);
+  background: #fff;
   transition: var(--animate);
 
 }
@@ -329,20 +308,20 @@ nav {
 .navigation-bar ul li a {
   position: relative;
   font-size: var(--text-regular);
-  color: var(--letras-top);
+  color: #bb9156;
   font-weight: var(--font-weight-regular);
   text-transform: capitalize;
   transition: var(--animate);
 }
 .navigation-bar ul li a:hover,
 .navigation-bar ul li.active a {
-  color: var(--letras-top);
+  color: #bb9156;
 }
 .navigation-bar ul li a.btn {
-  color: var(--letras-top);
+  color: #bb9156;
 }
 .navigation-bar ul li a.btn:hover {
-  color: var(--letras-top);
+  color: #bb9156;
 }
 .navigation-bar ul li.active::after {
   content: "";
@@ -354,7 +333,7 @@ nav {
   width: 15px;
   height: 3px;
   border-radius: var(--border-radius);
-  background-color: var(--color-first);
+  background-color: #190b00;
 }
 
 /* Toggle bar */
@@ -394,7 +373,7 @@ nav {
     left: 0;
     top: 70px;
     width: 100%;
-    background-color: var(--verdinho-fartinho);
+    background-color: #f3f8ec;
     padding: 20px 0;
     z-index: 2;
   }
@@ -414,7 +393,7 @@ nav {
   min-height: 100vh;
   padding-top: 90px;
   align-items: center;
-  background-color: var(--verdinho-fartinho);
+  background-color: #f3f8ec;
 }
 .home img {
   position: absolute;
@@ -466,7 +445,7 @@ nav {
   color: rgba(26, 37, 14, 0.7);
 }
 .product-content h3 span {
-  color: var(--color-first);
+  color: #190b00;
 }
 /* About  */
 .aboutus-wrapper {
@@ -494,17 +473,17 @@ nav {
 
 .newsletter-wrapper input {
   width: 330px;
-  background-color: var(--color-third);
+  background-color: #C4A484;
   height: 50px;
   border-radius: var(--border-radius);
   padding: 0 25px;
   font-size: var(--text-regular);
   font-weight: var(--font-weight-regular);
-  color: var(--color-newsletter);
+  color: #190b00;
   border: 0px;
 }
 .newsletter-wrapper input::placeholder {
-  color: var(--color-newsletter);
+  color: #190b00;
 }
 .newsletter-wrapper a.btn {
   padding: 16px 30px;
@@ -526,13 +505,13 @@ footer ul li:last-child {
   margin-right: 0px;
 }
 footer ul li a {
-  color: var(--color-fourth);
+  color: #f3f8ec;
   font-size: var(--text-regular);
   font-weight: var(--font-weight-regular);
   transition: var(--animate);
 }
 footer ul li a:hover {
-  color: var(--color-first);
+  color: #190b00;
 }
 .copyright {
   width: 100%;
@@ -542,7 +521,7 @@ footer ul li a:hover {
 }
 .copyright h4 {
   text-align: center;
-  color: var(--color-fourth);
+  color: #f3f8ec;
   font-size: var(--text-regular);
   font-weight: var(--font-weight-regular);
 }
