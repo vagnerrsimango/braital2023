@@ -95,6 +95,9 @@ border-radius: 12px;
   -webkit-transform: translateY(-50%) translateX(-50%);
 }
 
+body{
+  background-color: #fff;
+}
 
 .social{
   margin: 0 auto;
@@ -181,12 +184,12 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: var(--text-regular);
   font-weight: 300;
-  color: var(--color-second);
+  color: #554022;;
   line-height: 159.1%;
 }
 h1,
 h2 {
-  color: var(--color-second);
+  color: #554022;;
   font-weight: var(--font-weight-bold);
   line-height: normal;
   text-transform: capitalize;
@@ -229,6 +232,7 @@ main {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .d-flex {
