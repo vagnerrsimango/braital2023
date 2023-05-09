@@ -57,7 +57,7 @@
   opacity: 1;
 }
 
-.dark-theme {
+/* .dark-theme {
   --color-first: #fff ;
   --color-newsletter: black;
   --color-second:  white;
@@ -71,7 +71,7 @@
   background-color: #000;
 
   --color-nav: black;
-}
+} */
 
 #logotip {
 border-radius: 12px;
