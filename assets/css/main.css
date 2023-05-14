@@ -64,7 +64,8 @@ border-radius: 12px;
 }
 
 #txtLocation {
-  font-family: 'Poppins', sans-serif; color: black;
+  font-family: "Poppins", serif;
+  color: black;
 }
 
 #cardCol {
@@ -135,7 +136,7 @@ border-radius: 12px;
   box-sizing: border-box;
   scroll-behavior: smooth;
   line-height: 1.3;
-  font-family: "Merriweather", serif;
+  font-family: "Poppins", serif;
 }
 
 .footer-socials {
@@ -179,7 +180,7 @@ ul {
   list-style: none;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", serif;
   font-size: var(--text-regular);
   font-weight: 300;
   color: var(--color-second);
