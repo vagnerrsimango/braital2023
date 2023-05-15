@@ -411,6 +411,14 @@ nav {
   width: 81%;
   margin-bottom: 50px;
 }
+
+.slideshow {
+
+}
+
+.slideshow > div:not(:first-child) {
+  display: none;
+}
 /* Brand */
 .brand-wrapper {
   flex-wrap: wrap;
