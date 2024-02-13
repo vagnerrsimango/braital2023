@@ -289,16 +289,19 @@ header .logo img:hover {
 
 /* Navigation */
 nav {
-  height: 83px;
+  height: auto; /* Change fixed height to auto */
   width: 100%;
   padding: 20px 0;
   transition: all 0.3s ease-in-out;
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: space-between; /* Space items evenly */
 }
 
 .navigation-bar ul li {
   position: relative;
   display: inline-block;
-  margin: 0 25px;
+  margin: 0;
 }
 
 .navigation-bar ul li:last-child {
@@ -311,6 +314,7 @@ nav {
   font-weight: var(--font-weight-regular);
   text-transform: capitalize;
   transition: all 0.3s ease-in-out;
+  padding: 10px;
 }
 
 .navigation-bar ul li a:hover,
@@ -383,6 +387,11 @@ nav {
   .navigation-bar ul li {
     display: block;
     margin: 15px 0;
+  }
+
+  .navigation-bar ul li a {
+    font-size: 14px;
+    padding: 8px;
   }
 
   .navigation-bar ul li.active::after {
